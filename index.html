@@ -18,20 +18,25 @@
         </ul>
       </div>
       <div class="head-content">
-            <div class="head-propouse">
+            <div class="head-propose">
               <h1 class="hheadcontent">Our strong<br> <span class="orgtext">organisation</span></h1>
               <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
-              <button class="contactus" href="contact.html">Contact Us</button>
-            </div>                
-              <a class="head-img" href="https://i.ytimg.com/vi/OhFy-QkWxhU/hqdefault.jpg"><img src="img/pexels-photo-3534632.jpeg" alt="Пройди по ссылке" width="551" height="356"></a>            
+              <form class="contactus" action="contact.html">
+                <button >Contact Us</button>
+               </form> 
+            </div>  
+                            
+              <a href="contact.html"><img class="head-img" src="img/pexels-photo-3534632.jpeg" alt="Пройди по ссылке" width="551" height="356" ></a>           
       </div>
     </header>
     <main>
         <div class="production-list">
-            <div class="pl-propouse">
-              <h2 class="hpropouse">Do you know we can provide for you?</h2>
+            <div class="pl-propose">
+              <h2 class="hpropose">Do you know we can provide for you?</h2>
               <p class="pl-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
-              <button class="lm-button" href="contact.html">Learn more</button>
+              <form action="learn-more.html">
+              <button class="lm-button">Learn more</button>
+            </form>
             </div>
             <div class="pl-options">
               <section>
@@ -149,7 +154,7 @@
                 <p class="writeustext-l">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                 <hr class="underline">
             </section>
-            <section class="writeus-main" >
+            <section class="writeus-main">
               <form class="writeus-input" action="GET">
                 <input type="text" name="name" class="writeus-input writeus-name" required placeholder="Name">
                 <input type="email" name="email" class="writeus-input writeus-mail" required placeholder="Your Mail">
@@ -188,5 +193,12 @@
       </div>
     </div>
   </footer>
+  <script>
+    function pashalka (privetstvie) {
+      alert(privetstvie);
+    }
+    
+    setTimeout(pashalka, 10000, "Здраствуйте Валерий! добро пожаловать на галгофу моих стараний, для отсутсвия *резких ЗАПАХОВ кода* прошу приготовить прищепку:D ");
+  </script>
   </body>
 </html>

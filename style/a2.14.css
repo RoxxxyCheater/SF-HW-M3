@@ -86,7 +86,7 @@ header{
 	text-align: left;
 	
 }
-.head-propouse{
+.head-propose{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -121,26 +121,28 @@ h1{
 }
 .contactus{
 	background-color: #ff3f40;
-    color: white;
-    font-size: 18px;
-    width: 227px;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-    font-family: sans-serif;
-    letter-spacing: 0.3195px;
-    line-height: 20px;
+	width: 227px;
+	text-align: center;
+	border-radius: 8px;
+	max-height: 58px;
+}
+.head-content button{
+	list-style: none;
+	background-color: #ff3f40;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 0.3195px;
+	line-height: 55px;
 	font-weight: bold;
-	margin-bottom: 11px;
-    border-radius: 8px;
-    border: 0;
+	border-radius: 8px;
+	border: 0;
+	font-family: sans-serif;
 }
 
 .head-img {
     width: 551px;
     height: 356px;
     box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
-    object-fit: cover;
     text-decoration: none;
 }
 
@@ -160,7 +162,7 @@ main{
 	min-width: 551px;
 	border-bottom: 1px solid #ececec;
 }
-.pl-propouse{
+.pl-propose{
 	flex: 1 1 502px;
 	margin: 0 50px 50px 0;
 	text-align: left;
@@ -178,7 +180,7 @@ text-transform: uppercase;
 color: #000000;
 opacity: 0.7;
 }
-.hpropouse{
+.hpropose{
 	margin-bottom: 37px;
 }
 .pl-text{
@@ -260,7 +262,7 @@ color: #000000;
 	flex-wrap: wrap;
 	min-height: 588px;
 	max-width: 1249px;
-	padding: 0 8%;
+	/* padding: 0 8%; */
 	margin: 0 auto;
 	min-width: 551px;
 	padding-top: 94px;
@@ -314,6 +316,7 @@ color: #000000;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	justify-content: space-between;
+	padding: 92px 0 52px 0;
 }
 .p-items {
 	flex: 1 1 24%;
@@ -321,7 +324,9 @@ color: #000000;
 	min-width: 250px;
 	max-width: 299px;	
 	margin-bottom: 18px;
+	padding-right: 0.4vw;
 	object-fit: cover;
+
 }
 
 /* TEAM */
@@ -723,4 +728,181 @@ color: #000000;
 
 .footer-links > .footer-link:not(:last-child) {
 	margin-right: 18px;
+}
+
+/* media */
+@media screen and (max-width: 1480px){
+	.teammates{
+		max-width: 600px;
+	}
+}
+@media screen and (max-width: 1286px) {
+	.head-content{
+		flex-wrap: nowrap;		
+	}
+	.production-list {
+		padding: 34px 0.3vw 36px;
+	}
+	.head-propose{
+	 	margin-right: 0; 
+	 	padding-right: 2vw; 
+	}
+	.pl-options section{
+		width: 100%;
+		max-width: 100%;
+	
+	}
+	.contactus{
+		min-width: 227px;
+		min-height: 58px;
+		
+	}
+	.hheadcontent { 
+		font-size: 4vw;
+	}
+	.head-img { 
+	 	width: 100%; 
+	 	height: auto; 
+	}
+	.prod-items { 
+		justify-content: center;
+	}
+	.writeus { 
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding: 0 1vw;
+	}
+	.write-emptybox{
+		display: none;
+	}
+	.write-cont{
+		padding-bottom: 0;
+	}
+	.writeus-main {
+		margin-right: 0;
+	}
+	.write-cont{
+		flex-wrap: wrap;
+	}
+	.contactsinfo {		
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 950px) {
+	.products-nav{
+		display: list-item;
+	}
+	.hheadcontent{
+		margin-bottom: 28px;
+		line-height: 50px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.orgtext {
+	    letter-spacing: 0.5vw;
+		
+	}
+	.products-a {
+		width: 100%;
+		text-align: center;
+	}
+	.ourteam {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contactsinfo{
+		margin: 0 auto;
+	}
+	.pl-propose {  
+		width: 100%;
+		max-width: 100%;
+		padding: 0 50px;
+		}
+	.pl-options section {
+	   width: 45%;
+	   max-width: 45%;
+		}
+	.askustext-form{
+		padding: 0 1vw;
+	}
+}
+@media screen and (max-width: 700px) {	
+	.head-propose {
+		width: 100%;
+		padding-bottom: 18px;
+		
+	}	
+	.hheadcontent{
+		font-size: 9vw;
+		margin-bottom: 18px;
+		line-height: 72px;
+	}
+	.product-text{
+		margin-bottom: 51px;
+	}
+	.head-content {
+		flex-wrap: wrap;
+	}
+	.pl-options {
+		width: 90vw;
+		max-width: 90vw;
+		justify-content: stretch;
+	}
+	.pl-options section{
+		width: 100%;
+		max-width: 100%;
+	}
+	.pl-propose{
+		padding: 0 20vw 0 1vw;
+	}
+	.feature {		
+		min-width: 300px;
+		padding: 0 20px;
+	}
+	.p-items{
+		max-width: 100%;
+		margin-right: 1vw;
+		flex: 1 1 50%;
+	}
+	.team {
+		min-width: 300px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.upmenu{ 
+		display: list-item;
+		height: auto;
+	}
+	.upmenu ul{ 
+		max-width: 120px;
+		margin: 0 auto;
+		padding-left: 0;
+		
+	}
+}
+@media screen and (max-width: 400px) {
+	.pl-propose{
+		padding: 0 45vw 0 1vw;
+	}
+	.writeustext-h{
+		font-size: 12vw;
+		text-align: center;
+	}
+	.writeustext-l {
+		font-size: 4vw;
+		text-align: center
+	}
+	.askustext-form{
+		flex-wrap: wrap;
+
+	}
+	.askustext-input{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	
+	
+	
 }
